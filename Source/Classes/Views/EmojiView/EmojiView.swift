@@ -6,15 +6,14 @@
 //
 
 import Foundation
-@objcMembers
-@objc(KeyboardSettings)
+
 
 public enum BottomType: Int {
     case pageControl, categories
 }
-
+@objc
 public protocol EmojiViewDelegate: class {
-    
+
     func emojiViewDidSelectEmoji(_ emoji: String, emojiView: EmojiView)
     func emojiViewDidPressChangeKeyboardButton(_ emojiView: EmojiView)
     func emojiViewDidPressDeleteBackwardButton(_ emojiView: EmojiView)
@@ -30,6 +29,7 @@ public extension EmojiViewDelegate {
     
 }
 
+@objcMembers
 final public class EmojiView: UIView {
     
     // MARK: - IBInspectable variables
