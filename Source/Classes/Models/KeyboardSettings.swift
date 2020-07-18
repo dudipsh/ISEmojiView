@@ -6,6 +6,8 @@
 //
 
 import Foundation
+@objcMembers
+@objc(KeyboardSettings)
 
 final public class KeyboardSettings {
     
