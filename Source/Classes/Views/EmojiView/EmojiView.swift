@@ -6,7 +6,8 @@
 //
 
 import Foundation
-
+@objcMembers
+@objc(KeyboardSettings)
 
 public enum BottomType: Int {
     case pageControl, categories
