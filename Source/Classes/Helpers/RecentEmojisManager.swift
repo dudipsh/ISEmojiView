@@ -6,8 +6,7 @@
 //
 
 import Foundation
-@objcMembers
-@objc(RecentEmojisManager)
+
 private let recentEmojisKey = "ISEmojiView.recent"
 private let recentEmojisFreqStorageKey = "ISEmojiView.recent-freq"
 
