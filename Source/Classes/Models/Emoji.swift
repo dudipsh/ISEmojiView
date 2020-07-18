@@ -6,7 +6,8 @@
 //
 
 import Foundation
-
+@objcMembers
+@objc(Emoji)
 public class Emoji: Codable {
     
     // MARK: - Public variables

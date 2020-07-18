@@ -6,7 +6,8 @@
 //
 
 import Foundation
-
+@objcMembers
+@objc(Category)
 public enum Category: Equatable {
     case recents
     case smileysAndPeople

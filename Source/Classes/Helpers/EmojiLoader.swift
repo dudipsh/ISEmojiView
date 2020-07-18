@@ -6,7 +6,8 @@
 //
 
 import Foundation
-
+@objcMembers
+@objc(EmojiLoader)
 final public class EmojiLoader {
     
     static func recentEmojiCategory() -> EmojiCategory {

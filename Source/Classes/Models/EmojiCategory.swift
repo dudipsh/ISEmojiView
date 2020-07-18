@@ -6,6 +6,8 @@
 //
 
 import Foundation
+@objcMembers
+@objc(EmojiCategory)
 
 public class EmojiCategory {
     

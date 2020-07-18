@@ -7,10 +7,14 @@
 
 import Foundation
 
+@objcMembers
+@objc(BottomType)
 public enum BottomType: Int {
     case pageControl, categories
 }
 
+@objcMembers
+@objc(EmojiViewDelegate)
 public protocol EmojiViewDelegate: class {
     
     func emojiViewDidSelectEmoji(_ emoji: String, emojiView: EmojiView)
